@@ -51,7 +51,7 @@ object Croc1App extends js.JSApp /*with WindowTimers*/ {    // tbd. how are we s
     val pivot_head = xy(44,147)
     val pivot_jaw = xy(92,126)
 
-    def close() = {
+    def close = () => {
       clearTimeout(timer)
       console.log("close"); 
 
